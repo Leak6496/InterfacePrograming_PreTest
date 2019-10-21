@@ -1,3 +1,23 @@
-div {
-    text-align: center;
+
+h5{
+    text-align: right;
 }
+h2{
+    text-align: right;
+}
+
+p{
+    text-align: left;
+}
+input{
+    float: right;
+}
+button{
+    float: right;
+}
+div {
+   background-color: rgb(160, 160, 182);
+   padding-top: 1px;
+   padding-bottom: 1px;
+}
+
