@@ -1,0 +1,12 @@
+<div>
+<div class="sidenav">
+  <div *ngFor="let movie of movies">
+    <app-sidebarleft [movie]="movie"></app-sidebarleft>
+  </div>
+</div>
+<div class="main">
+  <div *ngFor="let movie of movies">
+    <app-displaymoviedetail [movie]="movie"></app-displaymoviedetail>  
+</div>
+<div>
+

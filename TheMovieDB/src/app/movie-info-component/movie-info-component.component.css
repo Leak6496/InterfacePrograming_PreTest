@@ -1,0 +1,33 @@
+
+
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .sidenav {  
+    margin-top: 50px; 
+    height: 40px;
+    width: 20%;
+    z-index: 1;
+    left: 0;
+   
+    
+  }
+  .main {
+    margin-left: 20%; /* Same as the width of the sidenav */
+
+    height: 400px;
+    
+    font-size: 28px; /* Increased text to enable scrolling */
+ 
+  }
